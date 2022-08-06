@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './review.css';
+import Card from './shared/Card';
 
 const ReviewItem = ({ data }) => {
 	return (
 		<div className='review'>
-			<div className='card'>
+			<Card>
 				<div className='numDisplay'> {data.rating} </div>
 				<div className='textDisplay'>{data.text}</div>
-			</div>
+			</Card>
 		</div>
 	);
 };
