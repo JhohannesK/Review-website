@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 import './review.css';
 
-const ReviewItem = () => {
-	const [rating, setRating] = useState(9);
-	const [text, setText] = useState(
-		'This is how the review is gonna look like'
-	);
-
+const ReviewItem = ({ data }) => {
 	return (
 		<div className='review'>
 			<div className='card'>
-				<div className='numDisplay'> {rating} </div>
-				<div className='textDisplay'>{text}</div>
+				<div className='numDisplay'> {data.rating} </div>
+				<div className='textDisplay'>{data.text}</div>
 			</div>
 		</div>
 	);

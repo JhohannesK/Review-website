@@ -10,9 +10,9 @@
 	background: #f7b701;
 	border-radius: 20px;
 	width: 100%;
-	padding: 10px;
+	padding: 1rem 1.5rem 1rem 2rem;
 	position: relative;
-	height: 4rem;
+	height: max-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
