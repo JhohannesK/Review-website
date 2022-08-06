@@ -1,9 +1,0 @@
-header {
-	font-size: 40px;
-	font-weight: 600;
-	background: var(--bgColor2);
-	width: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
