@@ -2,7 +2,6 @@ import Header from './components/Header';
 import ReviewList from './components/ReviewList';
 import ReviewData from './components/data/ReviewData';
 import { useState } from 'react';
-import { FaWindows } from 'react-icons/fa';
 
 function App() {
 	const [review, SetReview] = useState(ReviewData);
@@ -13,9 +12,11 @@ function App() {
 		}
 	};
 
+	// TODO: Able to add new reviews
+
 	return (
 		<div>
-			<Header text='Review-app' />
+			<Header text="Jhohannes' Review-app" />
 			<ReviewList review={review} handleDelete={deleteReview} />
 		</div>
 	);
